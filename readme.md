@@ -17,8 +17,8 @@
     | ------------- |:-------------| :------------- | :------------- |
     | logger_name      | mandatory | name of logger, so you can access it from anywhere with specific logger name ||
     | debug      | optional | debug used for debugging purpose, if you want write logger.info on file, you can enable debug | False |
-    | backup_count      | optional | how many backup count that you want | False |
-    | hour      | optional | hour when log change to next file rotate | False |
+    | backup_count      | optional | how many backup count that you want | 14 |
+    | hour      | optional | hour (0-23) when log change to next file rotate | 3 |
     | interval      | optional | interval day you want to backup | 1 |
 
 2. Use everywhere
